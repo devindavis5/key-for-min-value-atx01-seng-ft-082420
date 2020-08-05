@@ -8,7 +8,7 @@ min_value = 99999
 
 name_hash.each do |key, value|
   if name_hash[key] < min_value
-    min_value = name_hash[key]
+    min_key = name_hash[key]
   end 
 end
   min_key
