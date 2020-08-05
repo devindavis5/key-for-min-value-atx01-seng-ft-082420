@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   
-min_key = ""
+key = ""
 min_value = 99999
 
 name_hash.each do |key, value|
